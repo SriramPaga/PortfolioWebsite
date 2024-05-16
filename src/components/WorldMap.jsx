@@ -24,7 +24,7 @@ const WorldMap = () => {
       }}
     >
       <Geographies
-        geography="/features.json"
+        geography='public/features.json'
         // fill="#874f41"
         fill="#1a1c25"
         stroke="#c5c6c7"

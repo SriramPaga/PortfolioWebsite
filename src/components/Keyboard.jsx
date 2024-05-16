@@ -8,17 +8,27 @@ Source: https://sketchfab.com/3d-models/cartoon-mini-keyboard-79a8ea6311bf48faa1
 Title: Cartoon Mini Keyboard
 */
 
-import React, { useRef } from 'react'
-import { useGLTF } from '@react-three/drei'
+import React, { useRef } from 'react';
+import { useGLTF } from '@react-three/drei';
 
 export default function Model(props) {
-  const { nodes, materials } = useGLTF('/Keyboard-transformed.glb')
+  const { nodes, materials } = useGLTF('public/Keyboard-transformed.glb');
   return (
     <group {...props} dispose={null}>
-      <mesh geometry={nodes.LP_keyboard_0.geometry} material={materials.keyboard} rotation={[-Math.PI / 2, 0, 0]} scale={100} />
-      <mesh geometry={nodes.LP_outline_0.geometry} material={materials.outline} rotation={[-Math.PI / 2, 0, 0]} scale={100} />
+      <mesh
+        geometry={nodes.LP_keyboard_0.geometry}
+        material={materials.keyboard}
+        rotation={[-Math.PI / 2, 0, 0]}
+        scale={100}
+      />
+      <mesh
+        geometry={nodes.LP_outline_0.geometry}
+        material={materials.outline}
+        rotation={[-Math.PI / 2, 0, 0]}
+        scale={100}
+      />
     </group>
-  )
+  );
 }
 
-useGLTF.preload('/Keyboard-transformed.glb')
+useGLTF.preload('/Keyboard-transformed.glb');

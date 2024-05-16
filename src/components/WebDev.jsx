@@ -12,7 +12,7 @@ import React, { useRef } from 'react';
 import { useGLTF } from '@react-three/drei';
 
 export default function Model(props) {
-  const { nodes, materials } = useGLTF('/webDev-transformed.glb');
+  const { nodes, materials } = useGLTF('public/webDev-transformed.glb');
   return (
     <group {...props} dispose={null}>
       <mesh
