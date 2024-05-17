@@ -10,9 +10,10 @@ Title: Voxel Web Development
 
 import React, { useRef } from 'react';
 import { useGLTF } from '@react-three/drei';
+const WEB_DEV = "/PortfolioWebsite" + "/webDev-transformed.glb";
 
 export default function Model(props) {
-  const { nodes, materials } = useGLTF('public/webDev-transformed.glb');
+  const { nodes, materials } = useGLTF(WEB_DEV);
   return (
     <group {...props} dispose={null}>
       <mesh
@@ -34,4 +35,4 @@ export default function Model(props) {
   );
 }
 
-useGLTF.preload('/webDev-transformed.glb');
+useGLTF.preload(WEB_DEV);

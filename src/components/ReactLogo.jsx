@@ -8,16 +8,22 @@ Source: https://sketchfab.com/3d-models/react-logo-76174ceeba96487f9863f974636f6
 Title: React logo
 */
 
-import React, { useRef } from 'react'
-import { useGLTF } from '@react-three/drei'
-
+import React, { useRef } from 'react';
+import { useGLTF } from '@react-three/drei';
+const REACT_LOGO = '/PortfolioWebsite' + '/reactLogo-transformed.glb';
 export default function Model(props) {
-  const { nodes, materials } = useGLTF('public/reactLogo-transformed.glb')
+  const { nodes, materials } = useGLTF(REACT_LOGO);
   return (
     <group {...props} dispose={null}>
-      <mesh geometry={nodes['React-Logo_Material002_0'].geometry} material={materials['Material.002']} position={[0, 0.079, 0.181]} rotation={[0, 0, -Math.PI / 2]} scale={[0.392, 0.392, 0.527]} />
+      <mesh
+        geometry={nodes['React-Logo_Material002_0'].geometry}
+        material={materials['Material.002']}
+        position={[0, 0.079, 0.181]}
+        rotation={[0, 0, -Math.PI / 2]}
+        scale={[0.392, 0.392, 0.527]}
+      />
     </group>
-  )
+  );
 }
 
-useGLTF.preload('/reactLogo-transformed.glb')
+useGLTF.preload(REACT_LOGO);

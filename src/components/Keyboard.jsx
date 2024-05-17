@@ -10,9 +10,9 @@ Title: Cartoon Mini Keyboard
 
 import React, { useRef } from 'react';
 import { useGLTF } from '@react-three/drei';
-
+const KEYBOARD = "/PortfolioWebsite" + "/webDev-transformed.glb";
 export default function Model(props) {
-  const { nodes, materials } = useGLTF('public/Keyboard-transformed.glb');
+  const { nodes, materials } = useGLTF(KEYBOARD);
   return (
     <group {...props} dispose={null}>
       <mesh
@@ -31,4 +31,4 @@ export default function Model(props) {
   );
 }
 
-useGLTF.preload('/Keyboard-transformed.glb');
+useGLTF.preload(KEYBOARD);
