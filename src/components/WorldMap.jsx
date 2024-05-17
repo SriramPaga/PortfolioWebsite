@@ -4,9 +4,9 @@ import {
   Geographies,
   Geography,
   Annotation,
-  
 } from 'react-simple-maps';
 
+const WORLDMAP = '/PortfolioWebsite' + '/features.json';
 
 const WorldMap = () => {
   return (
@@ -24,7 +24,7 @@ const WorldMap = () => {
       }}
     >
       <Geographies
-        geography='public/features.json'
+        geography={WORLDMAP}
         // fill="#874f41"
         fill="#1a1c25"
         stroke="#c5c6c7"
