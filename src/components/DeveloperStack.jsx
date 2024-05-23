@@ -15,7 +15,6 @@ import MySqlLogo from '../../public/Images/StackImages/developer/mySqlLogo.svg';
 // import './developer.scss';
 import { styled } from 'styled-components';
 
-import { Col, Row } from 'react-bootstrap';
 
 const Grid = styled.div`
   display: grid;
