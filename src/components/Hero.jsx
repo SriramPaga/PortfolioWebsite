@@ -128,7 +128,7 @@ const Description = styled.p`
   }
 `;
 const Button = styled.button`
-  width: 100px;
+  width: 150px;
   padding: 10px;
   /* background-color: #e64833; */
   background-color: #087E8B;

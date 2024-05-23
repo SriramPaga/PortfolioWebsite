@@ -13,6 +13,7 @@ const Contact = lazy(() => import('./components/Contact'));
 const Who = lazy(() => import('./components/Who'));
 
 import styled from 'styled-components';
+import Techstack from './components/Techstack';
 // import Test from './components/Test';
 const Container = styled.div`
   height: 100vh;
@@ -35,6 +36,7 @@ function App() {
       <Suspense fallback={<Loading />}>
         <Hero />
         <Who />
+        <Techstack />
         <Works />
         <Contact />
       </Suspense>
