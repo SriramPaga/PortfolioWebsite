@@ -55,6 +55,7 @@ const Left = styled.div`
     align-items: center;
   }
 `;
+
 const Right = styled.div`
   flex: 1;
   display: flex;

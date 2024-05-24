@@ -6,8 +6,6 @@ import { Canvas } from '@react-three/fiber';
 import { styled } from 'styled-components';
 import Cube from './Cube';
 
-
-
 import { MeshDistortMaterial, Sphere, OrbitControls } from '@react-three/drei';
 const Section = styled.div`
   /* background-color: #90aead; */
@@ -90,7 +88,7 @@ const Line = styled.img`
   margin: 0;
 `;
 const Subtitle = styled.h2`
-  color: #CDBFEE;
+  color: #cdbfee;
   margin: 0;
 `;
 const Description = styled.p`
@@ -103,10 +101,15 @@ const Description = styled.p`
     font-size: 18px;
   }
 `;
+const BtnContainer = styled.div`
+  display: flex;
+  gap: 20px;
+`;
 const Button = styled.button`
   width: 150px;
   padding: 10px;
-  background-color: #D62246;
+  /* background-color: #d62246; */
+  background-color: ${(props) => props.color};
   color: white;
   border: none;
   border-radius: 10px;
@@ -114,7 +117,7 @@ const Button = styled.button`
   margin: 0;
   &:hover {
     transition: ease-in-out 0.5s;
-    background-color: #931909;
+    background-color: ${(props) => props.hoverColor};
   }
 `;
 
@@ -183,14 +186,23 @@ const Who = () => {
             excited to use my skills to help businesses of all sizes create
             websites that are both visually stunning and user-friendly.
           </Description>
-
-          <ButtonLink
-            href="https://drive.google.com/file/d/17JRJlfdAy-2ya_XOEO_BhYGhbkDs-vrZ/view?usp=sharing"
-            target="_blank"
-          >
-          
-            <Button> Check Resume</Button>
-          </ButtonLink>
+          <BtnContainer>
+            <ButtonLink
+              href="https://drive.google.com/file/d/17JRJlfdAy-2ya_XOEO_BhYGhbkDs-vrZ/view?usp=sharing"
+              target="_blank"
+            >
+              <Button color="#d62246" hoverColor="#931909">
+                {' '}
+                Check Resume
+              </Button>
+            </ButtonLink>
+            <ButtonLink href="#projects">
+              <Button color="#087E8B" hoverColor="#06565f">
+                {' '}
+                Check Works
+              </Button>
+            </ButtonLink>
+          </BtnContainer>
         </Right>
       </Container>
     </Section>

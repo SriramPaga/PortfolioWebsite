@@ -8,6 +8,8 @@ import AdobePhotoshop from '../../public/Images/StackImages/Animator/adobePhotos
 // import Maya from '../../public/Images/StackImages/Animator/maya.svg';
 import Maya from '../../public/Images/StackImages/Animator/MayaLogo2.svg';
 import Mudbox from '../../public/Images/StackImages/Animator/mudbox.svg';
+import AfterEffects from '../../public/Images/StackImages/Animator/afterEffects.svg';
+import PrimerPro from '../../public/Images/StackImages/Animator/premierPro.svg';
 
 import { styled } from 'styled-components';
 // import { Col, Row } from 'react-bootstrap';
@@ -84,6 +86,8 @@ function AnimationStack() {
     AutodeskMax,
     AdobeIllustrator,
     AdobePhotoshop,
+    AfterEffects,
+    PrimerPro,
     Maya,
     Mudbox,
   ];

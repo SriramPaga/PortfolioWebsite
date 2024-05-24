@@ -12,9 +12,13 @@ import NodeJsIcon from '../../public/Images/StackImages/developer/nodeJsLogo3.sv
 import MaterialUiLogo from '../../public/Images/StackImages/developer/materialUiLogo.svg';
 import ReactLogo from '../../public/Images/StackImages/developer/reactLogo.svg';
 import MySqlLogo from '../../public/Images/StackImages/developer/mySqlLogo.svg';
+import Figma from '../../public/Images/StackImages/developer/Figma.svg';
+import MongoDb from '../../public/Images/StackImages/developer/MongoDb.svg';
+import TailwindCssIcon from '../../public/Images/StackImages/developer/TailwindCss.svg';
+// import Xampp from '../../public/Images/StackImages/developer/Xampp.svg';
+
 // import './developer.scss';
 import { styled } from 'styled-components';
-
 
 const Grid = styled.div`
   display: grid;
@@ -69,9 +73,12 @@ function DeveloperStack() {
     ReactBootstrap,
     ReactLogo,
     MaterialUiLogo,
+    TailwindCssIcon,
     GithubLogo,
     NodeJsIcon,
     MySqlLogo,
+    MongoDb,
+    Figma,
   ];
 
   return (
