@@ -1,4 +1,4 @@
-const __vite__fileDeps=["assets/Hero-XEb3x0RQ.js","assets/Navbar-BehZbEhm.js","assets/react-three-fiber.esm-jKE8qOj-.js","assets/OrbitControls-ldRrSCpk.js","assets/Works-CF9RsXqi.js","assets/Who-DfhRtHpL.js"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
+const __vite__fileDeps=["assets/Hero-B0wxABL7.js","assets/Navbar-hzMMO_Ai.js","assets/react-three-fiber.esm-BofK-hAZ.js","assets/OrbitControls-CDzmS8wY.js","assets/Works-bClkGkyN.js","assets/Who-Br6RPc3m.js"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
 (function(){const t=document.createElement("link").relList;if(t&&t.supports&&t.supports("modulepreload"))return;for(const l of document.querySelectorAll('link[rel="modulepreload"]'))r(l);new MutationObserver(l=>{for(const o of l)if(o.type==="childList")for(const i of o.addedNodes)i.tagName==="LINK"&&i.rel==="modulepreload"&&r(i)}).observe(document,{childList:!0,subtree:!0});function n(l){const o={};return l.integrity&&(o.integrity=l.integrity),l.referrerPolicy&&(o.referrerPolicy=l.referrerPolicy),l.crossOrigin==="use-credentials"?o.credentials="include":l.crossOrigin==="anonymous"?o.credentials="omit":o.credentials="same-origin",o}function r(l){if(l.ep)return;l.ep=!0;const o=n(l);fetch(l.href,o)}})();function nc(e){return e&&e.__esModule&&Object.prototype.hasOwnProperty.call(e,"default")?e.default:e}var S0={exports:{}},Kl={},k0={exports:{}},$={};/**
  * @license React
  * react.production.min.js
@@ -204,7 +204,7 @@ Error generating stack: `+o.message+`
     margin-top: 50px;
     margin-bottom: 20px;
   }
-`;function dp(){return A.jsx(sp,{id:"TechStack",children:A.jsxs(ap,{children:[A.jsxs(cp,{children:[A.jsx(w0,{children:"Animation Stack"}),A.jsx(Qd,{})]}),A.jsxs(fp,{children:[A.jsx(w0,{children:"Development Stack"}),A.jsx(up,{})]})]})})}const pp=qe.lazy(()=>ao(()=>import("./Hero-XEb3x0RQ.js"),__vite__mapDeps([0,1,2,3]))),hp=qe.lazy(()=>ao(()=>import("./Works-CF9RsXqi.js"),__vite__mapDeps([4,2,3]))),mp=qe.lazy(()=>ao(()=>import("./Contact-D77SuubB.js"),[])),vp=qe.lazy(()=>ao(()=>import("./Who-DfhRtHpL.js"),__vite__mapDeps([5,1,2]))),gp=ce.div`
+`;function dp(){return A.jsx(sp,{id:"TechStack",children:A.jsxs(ap,{children:[A.jsxs(cp,{children:[A.jsx(w0,{children:"Animation Stack"}),A.jsx(Qd,{})]}),A.jsxs(fp,{children:[A.jsx(w0,{children:"Development Stack"}),A.jsx(up,{})]})]})})}const pp=qe.lazy(()=>ao(()=>import("./Hero-B0wxABL7.js"),__vite__mapDeps([0,1,2,3]))),hp=qe.lazy(()=>ao(()=>import("./Works-bClkGkyN.js"),__vite__mapDeps([4,2,3]))),mp=qe.lazy(()=>ao(()=>import("./Contact-CspOBlAB.js"),[])),vp=qe.lazy(()=>ao(()=>import("./Who-Br6RPc3m.js"),__vite__mapDeps([5,1,2]))),gp=ce.div`
   height: 100vh;
   background-color: #fcfcfc;
   scroll-snap-type: y mandatory;
