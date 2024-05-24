@@ -196,12 +196,12 @@ const Who = () => {
                 Check Resume
               </Button>
             </ButtonLink>
-            <ButtonLink href="#projects">
+            {/* <ButtonLink href="#projects">
               <Button color="#087E8B" hoverColor="#06565f">
                 {' '}
                 Check Works
               </Button>
-            </ButtonLink>
+            </ButtonLink> */}
           </BtnContainer>
         </Right>
       </Container>
