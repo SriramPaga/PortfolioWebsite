@@ -85,7 +85,7 @@ const cardData = [
   {
     id: 1,
     title: 'itsFood',
-    img: 'public/Images/Itsfoods.png',
+    img: '/PortfolioWebsite' + 'public/Images/Itsfoods.png',
     link: 'https://srirampaga.github.io/itsfood/',
     description:
       'A frontend project demonstratin CRUD operation without backend, using ReactJS and TailwindCSS',
@@ -93,7 +93,7 @@ const cardData = [
   {
     id: 2,
     title: 'Card Modal',
-    img: 'public/Images/CardModal.png',
+    img: '/PortfolioWebsite' + 'public/Images/CardModal.png',
     link: ' http://52.15.131.99:3000/   ',
     description:
       'A small component showcasing how a modal can be created by only using HTML,CSS and JS',
