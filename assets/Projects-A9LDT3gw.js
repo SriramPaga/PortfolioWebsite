@@ -1,4 +1,4 @@
-import{p as t,j as e}from"./index-1AOGbT7g.js";const o=t.div`
+import{p as t,j as e}from"./index-lHEdMs1X.js";const o=t.div`
   /* background-color: #fff; */
   border-radius: 4px;
   box-shadow: 0 8px 10px rgba(253, 253, 253, 0.1);
@@ -123,4 +123,4 @@ import{p as t,j as e}from"./index-1AOGbT7g.js";const o=t.div`
   @media only screen and (max-width: 760px) {
     font-size: 55px;
   }
-`,j=[{id:1,title:"itsFood",img:"public/Images/Itsfoods.png",link:"https://srirampaga.github.io/itsfood/",description:"A frontend project demonstratin CRUD operation without backend, using ReactJS and TailwindCSS"},{id:2,title:"Card Modal",img:"public/Images/CardModal.png",link:" http://52.15.131.99:3000/   ",description:"A small component showcasing how a modal can be created by only using HTML,CSS and JS"}];function y(){return e.jsxs(p,{id:"projects",children:[e.jsxs(m,{children:[e.jsx(g,{children:e.jsx(f,{children:"Projects"})}),e.jsx(h,{children:j.map((n,i)=>e.jsx(x,{children:e.jsx(l,{cardData:n})}))})]}),e.jsx(u,{children:"More Incoming ... ..."})]})}export{y as default};
+`,j=[{id:1,title:"itsFood",img:"/PortfolioWebsitepublic/Images/Itsfoods.png",link:"https://srirampaga.github.io/itsfood/",description:"A frontend project demonstratin CRUD operation without backend, using ReactJS and TailwindCSS"},{id:2,title:"Card Modal",img:"/PortfolioWebsitepublic/Images/CardModal.png",link:" http://52.15.131.99:3000/   ",description:"A small component showcasing how a modal can be created by only using HTML,CSS and JS"}];function y(){return e.jsxs(p,{id:"projects",children:[e.jsxs(m,{children:[e.jsx(g,{children:e.jsx(f,{children:"Projects"})}),e.jsx(h,{children:j.map((n,i)=>e.jsx(x,{children:e.jsx(l,{cardData:n})}))})]}),e.jsx(u,{children:"More Incoming ... ..."})]})}export{y as default};
