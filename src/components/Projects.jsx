@@ -72,16 +72,29 @@ const Title = styled.h1`
     font-size: 55px;
   }
 `;
+const Description = styled.h6`
+  color: #c5c6c7;
+  font-size: 28px;
+  margin: 1;
+  font-family: 'Poppins';
+  @media only screen and (max-width: 760px) {
+    font-size: 55px;
+  }
+`;
 const cardData = [
   {
     id: 1,
     title: 'itsFood',
+    img: 'public/Images/Itsfoods.png',
+    link: 'https://srirampaga.github.io/itsfood/',
     description:
-      'A frontend project demonstratin CRUD operation without backend',
+      'A frontend project demonstratin CRUD operation without backend, using ReactJS and TailwindCSS',
   },
   {
     id: 2,
     title: 'Card Modal',
+    img: 'public/Images/CardModal.png',
+    link: ' http://52.15.131.99:3000/   ',
     description:
       'A small component showcasing how a modal can be created by only using HTML,CSS and JS',
   },
@@ -116,6 +129,7 @@ function Projects() {
           })}
         </GridBox>
       </Container>
+      <Description>More Incoming ... ...</Description>
     </Section>
   );
 }

@@ -11,7 +11,7 @@ const Hero = lazy(() => import('./components/Hero'));
 const Works = lazy(() => import('./components/Works'));
 const Contact = lazy(() => import('./components/Contact'));
 const Who = lazy(() => import('./components/Who'));
-// const Projects = lazy(() => import('./components/Projects'));
+const Projects = lazy(() => import('./components/Projects'));
 
 import styled from 'styled-components';
 import Techstack from './components/Techstack';
@@ -39,7 +39,7 @@ function App() {
         <Who />
         <Techstack />
         <Works />
-        {/* <Projects /> */}
+        <Projects />
         <Contact />
       </Suspense>
       {/* <Test /> */}

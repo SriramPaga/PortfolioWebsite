@@ -66,20 +66,18 @@ const Img = styled.img`
 const Link = styled.a`
   /* text-decoration: none; */
   color: inherit;
-  
 `;
 function ProjectsCard(props) {
   const cardData = props.cardData;
   return (
     <Card>
       <CardImg>
-        <Img
-          src="https://imgs.search.brave.com/0UxvXQXQ-m8vDO6g-ZQwYgU4uwAUNeNVa7rsMj8yQhk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/ZWR1Y2JhLmNvbS9h/Y2FkZW15L3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDIwLzAxL1N0/YWNrLWluLURhdGEt/U3RydWN0dXJlLmpw/Zw"
-          alt="cardImg"
-        />
+        <Img src={cardData.img} alt="cardImg" />
       </CardImg>
       <CardTitle>
-        <Link href="#1">{cardData.title}</Link>
+        <Link href={cardData.link} target="_blank">
+          {cardData.title}
+        </Link>
       </CardTitle>
       <CardDescription>{cardData.description}</CardDescription>
     </Card>
