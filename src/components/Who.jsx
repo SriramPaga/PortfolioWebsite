@@ -188,7 +188,7 @@ const Who = () => {
           </Description>
           <BtnContainer>
             <ButtonLink
-              href="https://drive.google.com/file/d/17JRJlfdAy-2ya_XOEO_BhYGhbkDs-vrZ/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Hylsfuzvf3x73uUVsV_ZrRH8JjeENx57/view?usp=sharing"
               target="_blank"
             >
               <Button color="#d62246" hoverColor="#931909">
