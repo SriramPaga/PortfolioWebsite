@@ -94,7 +94,7 @@ const cardData = [
     id: 2,
     title: 'Card Modal',
     img: './Images/CardModal.png',
-    link: ' http://52.15.131.99:3000/   ',
+    link: ' https://srirampaga.github.io/BitrootFrontend/   ',
     description:
       'A small component showcasing how a modal can be created by only using HTML,CSS and JS',
   },
