@@ -1,4 +1,4 @@
-const __vite__fileDeps=["assets/Hero-6_O7yoVj.js","assets/Navbar-C-O-J6Zs.js","assets/react-three-fiber.esm-E3riiP9c.js","assets/OrbitControls-Bdaqvn8k.js","assets/Works-2g8wOp8I.js","assets/Who-ByAAj03c.js"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
+const __vite__fileDeps=["assets/Hero-CNGu8Qst.js","assets/Navbar-DRM2_AGw.js","assets/react-three-fiber.esm-BIDKjGps.js","assets/OrbitControls-Dw08WTMz.js","assets/Works-DjR2Mguv.js","assets/Who-BwKD8yho.js"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
 (function(){const t=document.createElement("link").relList;if(t&&t.supports&&t.supports("modulepreload"))return;for(const l of document.querySelectorAll('link[rel="modulepreload"]'))r(l);new MutationObserver(l=>{for(const o of l)if(o.type==="childList")for(const i of o.addedNodes)i.tagName==="LINK"&&i.rel==="modulepreload"&&r(i)}).observe(document,{childList:!0,subtree:!0});function n(l){const o={};return l.integrity&&(o.integrity=l.integrity),l.referrerPolicy&&(o.referrerPolicy=l.referrerPolicy),l.crossOrigin==="use-credentials"?o.credentials="include":l.crossOrigin==="anonymous"?o.credentials="omit":o.credentials="same-origin",o}function r(l){if(l.ep)return;l.ep=!0;const o=n(l);fetch(l.href,o)}})();function nc(e){return e&&e.__esModule&&Object.prototype.hasOwnProperty.call(e,"default")?e.default:e}var S0={exports:{}},Yl={},k0={exports:{}},$={};/**
  * @license React
  * react.production.min.js
@@ -161,6 +161,12 @@ Error generating stack: `+o.message+`
     align-items: center;
     justify-content: center;
   }
+  @media (min-width: 761px) and (max-width: 1024px) {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 `,cp=ce.div`
   flex: 1;
   display: flex;
@@ -204,7 +210,7 @@ Error generating stack: `+o.message+`
     margin-top: 50px;
     margin-bottom: 20px;
   }
-`;function dp(){return F.jsx(sp,{id:"TechStack",children:F.jsxs(ap,{children:[F.jsxs(cp,{children:[F.jsx(w0,{children:"Animation Stack"}),F.jsx(Qd,{})]}),F.jsxs(fp,{children:[F.jsx(w0,{children:"Development Stack"}),F.jsx(up,{})]})]})})}const pp=Ge.lazy(()=>Ir(()=>import("./Hero-6_O7yoVj.js"),__vite__mapDeps([0,1,2,3]))),hp=Ge.lazy(()=>Ir(()=>import("./Works-2g8wOp8I.js"),__vite__mapDeps([4,2,3]))),mp=Ge.lazy(()=>Ir(()=>import("./Contact-DcijZqvf.js"),[])),vp=Ge.lazy(()=>Ir(()=>import("./Who-ByAAj03c.js"),__vite__mapDeps([5,1,2]))),gp=Ge.lazy(()=>Ir(()=>import("./Projects-CjIXennL.js"),[])),yp=ce.div`
+`;function dp(){return F.jsx(sp,{id:"TechStack",children:F.jsxs(ap,{children:[F.jsxs(cp,{children:[F.jsx(w0,{children:"Animation Stack"}),F.jsx(Qd,{})]}),F.jsxs(fp,{children:[F.jsx(w0,{children:"Development Stack"}),F.jsx(up,{})]})]})})}const pp=Ge.lazy(()=>Ir(()=>import("./Hero-CNGu8Qst.js"),__vite__mapDeps([0,1,2,3]))),hp=Ge.lazy(()=>Ir(()=>import("./Works-DjR2Mguv.js"),__vite__mapDeps([4,2,3]))),mp=Ge.lazy(()=>Ir(()=>import("./Contact-Da572tHF.js"),[])),vp=Ge.lazy(()=>Ir(()=>import("./Who-BwKD8yho.js"),__vite__mapDeps([5,1,2]))),gp=Ge.lazy(()=>Ir(()=>import("./Projects-BzI8I32d.js"),[])),yp=ce.div`
   height: 100vh;
   background-color: #fcfcfc;
   scroll-snap-type: y mandatory;
