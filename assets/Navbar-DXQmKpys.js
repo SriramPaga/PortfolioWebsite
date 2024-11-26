@@ -1,4 +1,4 @@
-import{p as n,r as i,j as e}from"./index-CmTa8QzL.js";const a=n.div`
+import{p as n,r as i,j as e}from"./index-CTD1bS4H.js";const a=n.div`
   display: flex;
   justify-content: center;
 
@@ -50,10 +50,11 @@ import{p as n,r as i,j as e}from"./index-CmTa8QzL.js";const a=n.div`
   @media only screen and (max-width: 760px) {
     font-size: x-small;
   }
-`,l=n.div`
+`,p=n.div`
   display: flex;
   align-items: center;
   gap: 20px;
+  padding: 10px;
 `;n.img`
   width: 20px;
   cursor: pointer;
@@ -73,4 +74,4 @@ import{p as n,r as i,j as e}from"./index-CmTa8QzL.js";const a=n.div`
     border: none;
     border-radius: 10px;
   }
-`,c=()=>(i.useRef(null),e.jsx(a,{children:e.jsxs(s,{children:[e.jsxs(o,{children:[e.jsx(r,{href:"/",src:"./Images/logo1.png"}),e.jsxs(d,{children:[e.jsx(t,{href:"https://www.artstation.com/srirampaga",target:"_blank",children:"Portfolio"}),e.jsx(t,{href:"https://www.linkedin.com/in/sriram-paga-a86a6a221/",target:"_blank",children:"LinkedIn"}),e.jsx(t,{href:"#ContactSection",children:"Contact"})]})]}),e.jsx(l,{children:e.jsx("a",{href:"#ContactSection",children:e.jsx(x,{children:"Hire Now"})})})]})}));export{c as N};
+`,c=()=>(i.useRef(null),e.jsx(a,{children:e.jsxs(s,{children:[e.jsxs(o,{children:[e.jsx(r,{href:"/",src:"./Images/logo1.png"}),e.jsxs(d,{children:[e.jsx(t,{href:"https://www.artstation.com/srirampaga",target:"_blank",children:"Portfolio"}),e.jsx(t,{href:"https://www.linkedin.com/in/sriram-paga-a86a6a221/",target:"_blank",children:"LinkedIn"}),e.jsx(t,{href:"#ContactSection",children:"Contact"})]})]}),e.jsx(p,{children:e.jsx("a",{href:"#ContactSection",children:e.jsx(x,{children:"Hire Now"})})})]})}));export{c as N};

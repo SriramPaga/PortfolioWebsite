@@ -1,4 +1,4 @@
-const __vite__fileDeps=["assets/Hero-DNgAmmkr.js","assets/Navbar-BxbGlmaC.js","assets/react-three-fiber.esm-UVptP6uU.js","assets/OrbitControls-BImBWIOu.js","assets/Works-BKAKLdfZ.js","assets/Who-BiawPf74.js"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
+const __vite__fileDeps=["assets/Hero-j5vnmQwU.js","assets/Navbar-DXQmKpys.js","assets/react-three-fiber.esm-bYuc-IyC.js","assets/OrbitControls-c4UicO0T.js","assets/Works-v9dY_6zh.js","assets/Who-BrqG8kKX.js"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
 (function(){const t=document.createElement("link").relList;if(t&&t.supports&&t.supports("modulepreload"))return;for(const l of document.querySelectorAll('link[rel="modulepreload"]'))r(l);new MutationObserver(l=>{for(const o of l)if(o.type==="childList")for(const i of o.addedNodes)i.tagName==="LINK"&&i.rel==="modulepreload"&&r(i)}).observe(document,{childList:!0,subtree:!0});function n(l){const o={};return l.integrity&&(o.integrity=l.integrity),l.referrerPolicy&&(o.referrerPolicy=l.referrerPolicy),l.crossOrigin==="use-credentials"?o.credentials="include":l.crossOrigin==="anonymous"?o.credentials="omit":o.credentials="same-origin",o}function r(l){if(l.ep)return;l.ep=!0;const o=n(l);fetch(l.href,o)}})();function nc(e){return e&&e.__esModule&&Object.prototype.hasOwnProperty.call(e,"default")?e.default:e}var S0={exports:{}},Yl={},k0={exports:{}},$={};/**
  * @license React
  * react.production.min.js
@@ -210,7 +210,7 @@ Error generating stack: `+o.message+`
     margin-top: 50px;
     margin-bottom: 20px;
   }
-`;function dp(){return F.jsx(sp,{id:"TechStack",children:F.jsxs(ap,{children:[F.jsxs(cp,{children:[F.jsx(w0,{children:"Animation Stack"}),F.jsx(Qd,{})]}),F.jsxs(fp,{children:[F.jsx(w0,{children:"Development Stack"}),F.jsx(up,{})]})]})})}const pp=Ge.lazy(()=>Ir(()=>import("./Hero-DNgAmmkr.js"),__vite__mapDeps([0,1,2,3]))),hp=Ge.lazy(()=>Ir(()=>import("./Works-BKAKLdfZ.js"),__vite__mapDeps([4,2,3]))),mp=Ge.lazy(()=>Ir(()=>import("./Contact-v_2sbwTm.js"),[])),vp=Ge.lazy(()=>Ir(()=>import("./Who-BiawPf74.js"),__vite__mapDeps([5,1,2]))),gp=Ge.lazy(()=>Ir(()=>import("./Projects-B4BGNeXJ.js"),[])),yp=ce.div`
+`;function dp(){return F.jsx(sp,{id:"TechStack",children:F.jsxs(ap,{children:[F.jsxs(cp,{children:[F.jsx(w0,{children:"Animation Stack"}),F.jsx(Qd,{})]}),F.jsxs(fp,{children:[F.jsx(w0,{children:"Development Stack"}),F.jsx(up,{})]})]})})}const pp=Ge.lazy(()=>Ir(()=>import("./Hero-j5vnmQwU.js"),__vite__mapDeps([0,1,2,3]))),hp=Ge.lazy(()=>Ir(()=>import("./Works-v9dY_6zh.js"),__vite__mapDeps([4,2,3]))),mp=Ge.lazy(()=>Ir(()=>import("./Contact-B5UZGBbx.js"),[])),vp=Ge.lazy(()=>Ir(()=>import("./Who-BrqG8kKX.js"),__vite__mapDeps([5,1,2]))),gp=Ge.lazy(()=>Ir(()=>import("./Projects-B0xV4YH9.js"),[])),yp=ce.div`
   height: 100vh;
   background-color: #fcfcfc;
   scroll-snap-type: y mandatory;
