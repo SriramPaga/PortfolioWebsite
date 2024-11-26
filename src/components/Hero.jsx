@@ -41,7 +41,6 @@ const Container = styled.div`
     justify-content: center;
   }
   @media (min-width: 761px) and (max-width: 1024px) {
-    background-color: aliceblue;
     width: 100%;
     flex-direction: column;
     align-items: center;
