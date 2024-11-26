@@ -64,6 +64,7 @@ const Icons = styled.div`
   display: flex;
   align-items: center;
   gap: 20px;
+  padding: 10px;
 `;
 const Icon = styled.img`
   width: 20px;
