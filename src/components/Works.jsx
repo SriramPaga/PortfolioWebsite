@@ -34,6 +34,10 @@ const Container = styled.div`
     width: 100%;
     flex-direction: column;
   }
+  @media (min-width: 761px) and (max-width: 1024px) {
+    width: 100%;
+    flex-direction: column;
+  }
 `;
 const Left = styled.div`
   flex: 1;

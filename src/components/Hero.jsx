@@ -40,6 +40,13 @@ const Container = styled.div`
     align-items: center;
     justify-content: center;
   }
+  @media (min-width: 761px) and (max-width: 1024px) {
+    background-color: aliceblue;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 `;
 // const Left = styled.div`
 //   flex: 2;
@@ -112,7 +119,7 @@ const Line = styled.img`
 `;
 const Subtitle = styled.h2`
   font-size: 32px;
-  color: #CDBFEE;
+  color: #cdbfee;
   /* color: #d9b08c; */
   margin: 0;
 `;
@@ -131,7 +138,7 @@ const Button = styled.button`
   width: 150px;
   padding: 10px;
   /* background-color: #e64833; */
-  background-color: #087E8B;
+  background-color: #087e8b;
   color: #fdfdfd;
   border: none;
   border-radius: 10px;
